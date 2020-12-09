@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ec93e7e8-2fcb-4ce0-b7f4-3dcdb0e2c813" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/med_diary.py" beforeDir="false" afterPath="$PROJECT_DIR$/med_diary.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/med_diary_database.py" beforeDir="false" afterPath="$PROJECT_DIR$/med_diary_database.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -121,7 +119,7 @@
       <updated>1607308728398</updated>
       <workItem from="1607308730033" duration="7615000" />
       <workItem from="1607318651162" duration="41000" />
-      <workItem from="1607465948609" duration="5794000" />
+      <workItem from="1607465948609" duration="6114000" />
     </task>
     <servers />
   </component>
@@ -137,22 +135,38 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="420" y="94" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1607308988727" />
-    <state width="1233" height="154" key="GridCell.Tab.0.bottom" timestamp="1607471746577">
+    <state width="1233" height="154" key="GridCell.Tab.0.bottom" timestamp="1607471762265">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1233" height="154" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1607471746577" />
-    <state width="1233" height="154" key="GridCell.Tab.0.center" timestamp="1607471746577">
+    <state width="1233" height="154" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1607471762265" />
+    <state width="1233" height="154" key="GridCell.Tab.0.center" timestamp="1607471762264">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1233" height="154" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1607471746577" />
-    <state width="1233" height="154" key="GridCell.Tab.0.left" timestamp="1607471746577">
+    <state width="1233" height="154" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1607471762264" />
+    <state width="1233" height="154" key="GridCell.Tab.0.left" timestamp="1607471762264">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1233" height="154" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1607471746577" />
-    <state width="1233" height="154" key="GridCell.Tab.0.right" timestamp="1607471746577">
+    <state width="1233" height="154" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1607471762264" />
+    <state width="1233" height="154" key="GridCell.Tab.0.right" timestamp="1607471762264">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1233" height="154" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1607471746577" />
+    <state width="1233" height="154" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1607471762264" />
+    <state width="1233" height="203" key="GridCell.Tab.1.bottom" timestamp="1607471755331">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1233" height="203" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1607471755331" />
+    <state width="1233" height="203" key="GridCell.Tab.1.center" timestamp="1607471755330">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1233" height="203" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1607471755330" />
+    <state width="1233" height="203" key="GridCell.Tab.1.left" timestamp="1607471755330">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1233" height="203" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1607471755330" />
+    <state width="1233" height="203" key="GridCell.Tab.1.right" timestamp="1607471755331">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1233" height="203" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1607471755331" />
     <state x="171" y="0" key="SettingsEditor" timestamp="1607315463200">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -161,17 +175,6 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1607315441881" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/med_diary_database.py</url>
-          <line>32</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Medication_Diary$recipes.coverage" NAME="recipes Coverage Results" MODIFIED="1607310438214" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.." />
