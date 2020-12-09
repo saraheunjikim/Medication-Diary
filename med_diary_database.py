@@ -49,6 +49,19 @@ def convertMedDosageToKey(medDosage):
 
     return False
 
+def convertDiagnosisToKey(medDiagnosis):
+    diagnosisDict = {}
+    medDiagnosis = medDiagnosis.replace(" ", "").lower()
+    myCursor.execute("SELECT diagnosisId, diagnosisName FROM diagnosis")
+    for (diagnosisId, diagnosisName) in myCursor:
+        diagnosisDict[diagnosisId] = (diagnosisName.replace(" ", "")).lower()
+
+    for key, value in diagnosisDict.items():
+        if value == medDiagnosis:
+            return key
+
+    return False
+
 def insertDiagnosis(medDiagnosis, medDiagnosisDesc):
     myCursor.execute("INSERT INTO diagnosis (diagnosisName, diagnosisDesc) VALUES (%s, %s)",
                      (medDiagnosis, medDiagnosisDesc))
@@ -66,7 +79,16 @@ def insertDosage(medDosage):
 
     return convertMedDosageToKey(newMedDosage)
 
-def insertMedication(medName, medDesc, medDiagnosis):
-    pass
+def insertMedication(medName, medDesc, medDiagnosis, medDiagnosisDesc):
+    if convertDiagnosisToKey(medDiagnosis):
+        medDiagnosisKey = convertDiagnosisToKey(medDiagnosis)
+    else:
+        insertDiagnosis(medDiagnosis, medDiagnosisDesc)
+        medDiagnosisKey = myCursor.lastrowid
+
+    myCursor.execute("INSERT INTO medication (medicationName, medicationDesc, medicationFor) "
+                     "VALUES (%s, %s, %s)",
+                     (medName, medDesc, medDiagnosisKey))
+    return db.commit()
 
 

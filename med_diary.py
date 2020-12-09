@@ -22,8 +22,12 @@ def insert():
     medDescInsInput = medDescIns.get()
     medDiagnosisInsInput = medDiagnosisIns.get()
     medDiagnosisDescInsInput = medDiagnosisDescIns.get()
-    
-    print(medNameInsInput, medDosageInsInput, medDescInsInput, medDiagnosisInsInput, medDiagnosisDescInsInput)
+
+    db.insertDosage(medDosageInsInput)
+    db.insertMedication(medNameInsInput, medDescInsInput, medDiagnosisInsInput, medDiagnosisDescInsInput)
+
+    return "Inserted"
+
 
 # Interface
 master = tk.Tk()

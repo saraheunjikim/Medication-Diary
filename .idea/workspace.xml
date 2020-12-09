@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ec93e7e8-2fcb-4ce0-b7f4-3dcdb0e2c813" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/med_diary.py" beforeDir="false" afterPath="$PROJECT_DIR$/med_diary.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/med_diary_database.py" beforeDir="false" afterPath="$PROJECT_DIR$/med_diary_database.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -32,7 +34,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../recipes.py" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.med_diary_database">
+  <component name="RunManager" selected="Python.med_diary">
     <configuration name="med_diary" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Medication-Diary" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -101,8 +103,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.med_diary_database" />
         <item itemvalue="Python.med_diary" />
+        <item itemvalue="Python.med_diary_database" />
         <item itemvalue="Python.recipes" />
       </list>
     </recent_temporary>
@@ -119,7 +121,7 @@
       <updated>1607308728398</updated>
       <workItem from="1607308730033" duration="7615000" />
       <workItem from="1607318651162" duration="41000" />
-      <workItem from="1607465948609" duration="6114000" />
+      <workItem from="1607465948609" duration="8880000" />
     </task>
     <servers />
   </component>
@@ -135,22 +137,22 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="420" y="94" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1607308988727" />
-    <state width="1233" height="154" key="GridCell.Tab.0.bottom" timestamp="1607471762265">
+    <state width="1233" height="154" key="GridCell.Tab.0.bottom" timestamp="1607476185152">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1233" height="154" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1607471762265" />
-    <state width="1233" height="154" key="GridCell.Tab.0.center" timestamp="1607471762264">
+    <state width="1233" height="154" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1607476185152" />
+    <state width="1233" height="154" key="GridCell.Tab.0.center" timestamp="1607476185152">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1233" height="154" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1607471762264" />
-    <state width="1233" height="154" key="GridCell.Tab.0.left" timestamp="1607471762264">
+    <state width="1233" height="154" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1607476185152" />
+    <state width="1233" height="154" key="GridCell.Tab.0.left" timestamp="1607476185152">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1233" height="154" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1607471762264" />
-    <state width="1233" height="154" key="GridCell.Tab.0.right" timestamp="1607471762264">
+    <state width="1233" height="154" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1607476185152" />
+    <state width="1233" height="154" key="GridCell.Tab.0.right" timestamp="1607476185152">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1233" height="154" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1607471762264" />
+    <state width="1233" height="154" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1607476185152" />
     <state width="1233" height="203" key="GridCell.Tab.1.bottom" timestamp="1607471755331">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -178,7 +180,7 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Medication_Diary$recipes.coverage" NAME="recipes Coverage Results" MODIFIED="1607310438214" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.." />
-    <SUITE FILE_PATH="coverage/Medication_Diary$med_diary.coverage" NAME="med_diary Coverage Results" MODIFIED="1607471746570" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Medication_Diary$med_diary_database.coverage" NAME="med_diary_database Coverage Results" MODIFIED="1607471757883" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Medication_Diary$med_diary.coverage" NAME="med_diary Coverage Results" MODIFIED="1607476185146" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Medication_Diary$med_diary_database.coverage" NAME="med_diary_database Coverage Results" MODIFIED="1607475907159" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
