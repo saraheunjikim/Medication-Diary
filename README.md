@@ -2,7 +2,7 @@
   <a href="https://github.com/saraheunjikim/Medication-Diary">
     <img src="med.JPG" alt="Logo" width="300">
   </a>
-  <h3 align="center">Medication Diary</h3>
+  <h1 align="center">Medication Diary</h1>
   <p align="center">
     This is a program where a user can enter his/her illness, medications and notes!
 </p>
