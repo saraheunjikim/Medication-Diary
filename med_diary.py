@@ -26,8 +26,6 @@ def insert():
     db.insertDosage(medDosageInsInput)
     db.insertMedication(medNameInsInput, medDescInsInput, medDiagnosisInsInput, medDiagnosisDescInsInput)
 
-    return "Inserted"
-
 
 # Interface
 master = tk.Tk()
